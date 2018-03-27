@@ -25,7 +25,7 @@ $ curl http://localhost:8080/swagger-ui.html
 ```
 
 ## 2. springboot-swagger-server-prescriptive
-A prescriptive (swagger api to spring code) RESTful Web Service: The swagger api/model are automatically generated from swagger yaml file. The spring boot application is written based on these api/model. The generated codes are included within the application code tree (target/generated-sources) and you might need to relaunch your IDE (e.g. IntelliJ IDEA) to recognize these files.
+A prescriptive (swagger api to spring code) RESTful Web Service: The swagger api/model are automatically generated from swagger yaml file. The spring boot application is written based on these api/model. The generated codes are included within the application code tree (target/generated-sources) and you might need to "Reimport" (Right click a project -> Maven -> Reimport) on IntelliJ IDEA to recognize these files.
 
 Terminal 1
 ```
